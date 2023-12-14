@@ -1,16 +1,20 @@
-var numero = 525;
-var frase = 'The Henry Challenge is close!'
-var string = numero.toString();
-var resultado = frase.split(' ').reverse().join(' ');
-//var resultado = frase.split(' ');
-//resultado.reverse();
-//resultado.join('');
-console.log (resultado);
+var array = ['amelia', 'ana', 'mafer', 'elena'];
 
-//if(string === resultado){
-//    console.log ('Es capicua')
-//} else{
-//    console.log ('No es capicua')
-//}
+var filtro = array.filter(function(str){
+
+})
+console.log(filtro)
+
+
+
+
+//var frase = function(comida){
+//    return 'Hoy quiero comer: ' + comida;
+//};
+//var hablar = function (comida, cb){
+//    return cb(comida);
+//};
+//var fraseFinal = hablar ('Pollo', frase)
+//console.log (fraseFinal);
 
  
